@@ -14,10 +14,10 @@
 
 //学校代码
 //请参考 README.md、江西省100所高校.csv 或 江西省100所高校.xlsx
-$school_id = "4136010403";
+$school_id = "4136010839";
 
 //请输入你的完整学号，不是两位数的
-$sid = "1008611";//学号
+$sid = "20195197";//学号
 
 //请参考 http://sc.ftqq.com/3.version
 $SCKEY = "";//可选的SCKEY
@@ -85,9 +85,9 @@ if (!empty($SCKEY)) {
  * @return array
  */
 function build_sign_data(
-    $province = "江西省", $city = "赣州市",
-    $district = "章贡区", $street = "", $sfby = 1,
-    $lng = 113.499325, $lat = 24.870886
+    $province = "江苏省", $city = "南京市",
+    $district = "建邺区", $street = "友谊街38号莲花新城北苑1号楼", $sfby = 1,
+    $lng = 118.72227, $lat = 31.9698
 )
 {
     return [
